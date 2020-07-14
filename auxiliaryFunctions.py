@@ -110,10 +110,11 @@ def getData(nImg=360):
 
 
 
-def getTestingData(nImg=90):
+def getTestingData(nImg=1):
     print('Reading data')
     tic()
-    org=np.load('tst_data_90im_1_subject.npy')
+    #org=np.load('tst_data_90im_1_subject.npy')
+    org=np.load('tst_img.npy')
     mask=loadmat('vardenmask_6f.mat')['b']
     mask=mask.astype(np.complex64)
     mask=np.tile(mask,[nImg,1,1])
