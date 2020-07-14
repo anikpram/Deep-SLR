@@ -3,7 +3,7 @@ Created on Aug 6th, 2018
 
 This file contains some supporting functions used during training and testing.
 
-@author:Hemant
+@author:Aniket
 """
 import time
 import numpy as np
