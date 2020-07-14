@@ -129,7 +129,7 @@ with tf.Session(config=config) as sess:
     writer.close()
 sp.io.savemat(directory+'/epochloss.mat',mdict={'epochs':epochloss},appendmat=True)
 end_time = time.time()
-print ('Trianing completed in minutes ', ((end_time - start_time) / 60))
+print ('Training completed in minutes ', ((end_time - start_time) / 60))
 print ('training completed at', datetime.now().strftime("%d-%b-%Y %I:%M %P"))
 print ('*************************************************')
 
