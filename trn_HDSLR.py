@@ -26,7 +26,7 @@ config.gpu_options.allow_growth=True
 #--------------------------------------------------------------
 #% SET THESE PARAMETERS CAREFULLY
 
-epochs=5 # number of training epochs
+epochs=100 # number of training epochs
 savemodNepoch=50 # save model after every 'savemodNepoch' epochs
 batchSize=1 # size of batch
 K=1 # number of iterations of data consistency and CNNs
