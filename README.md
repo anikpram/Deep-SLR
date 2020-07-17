@@ -2,7 +2,7 @@
 Tensorflow implementation of hybrid Deep-SLR (H-DSLR) for undersampled multi-channel MRI reconstruction. H-DSLR is a model-based deep learning approach to significantly
 reduce the computational complexity of Structured low-rank (SLR) algorithms.
 <img src="brain_6x_recon.png"  title="hover text">
-# Code Details
+## Code Details
 The codes have been written in python-3.7 using the Tensorflow-1.15 platform. 
 
 The description of the python scripts are:
