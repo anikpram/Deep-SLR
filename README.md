@@ -5,7 +5,7 @@ reduce the computational complexity of Structured low-rank (SLR) algorithms.
 ## Code Details
 The codes have been written in python-3.7 using the Tensorflow-1.15 platform. 
 ### Training and Testing datasets
-The training dataset consists of 12-channel brain MRI images from 4 subjects collected through SSFP acquisition protocol. There are 90 slices per subject which makes it 90 x 4 = 360 slices in total. Each slice is of dimension 256 x 232 x 12. The dataset can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing .\ 
+The training dataset consists of 12-channel brain MRI images from 4 subjects collected through SSFP acquisition protocol. There are 90 slices per subject which makes it 90 x 4 = 360 slices in total. Each slice is of dimension 256 x 232 x 12. The dataset can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing .\
 The testing dataset is uploaded as tst_img.npy which consists of a slice (256 x 232 x 12) from another subject unseen by the network during training.
 ### Description of Python scripts
 1. trn_HDSLR.py : It is the training code. The H-DSLR model is trained on the 360 12-channel brain slices described above.
