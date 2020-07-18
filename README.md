@@ -3,7 +3,9 @@ Tensorflow implementation of hybrid Deep-SLR (H-DSLR) for undersampled multi-cha
 reduce the computational complexity of Structured low-rank (SLR) algorithms.
 <img src="brain_6x_recon.png"  title="hover text">
 ## Code Details
-The codes have been written in python-3.7 using the Tensorflow-1.15 platform. The training dataset can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing
+The codes have been written in python-3.7 using the Tensorflow-1.15 platform. 
+### Training datasets
+The training dataset consists of 12-channel brain MRI images from 4 subjects collected through SSFP acquisition protocol. There are 90 slices per subject which makes it 90 x 4 = 360 slices in total. It can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing . 
 
 Description of the python scripts are:
 1. trn_HDSLR.py : It is the training code. The number of iterations (K) of the data consistency and Dw block is set here.
