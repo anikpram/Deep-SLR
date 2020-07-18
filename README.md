@@ -11,8 +11,8 @@ The training dataset consists of 12-channel brain MRI images from 4 subjects col
 The testing dataset is uploaded as tst_img.npy which consists of a slice from another subject unseen by the network.
 
 Description of the python scripts are:
-1. trn_HDSLR.py : It is the training code. The number of iterations (K) of the data consistency and Dw block is set here.
-2. tst_HDSLR.py : Code for testing the trained model on test dataset.
-3. auxiliaryFunctions.py : Training and testing dataset preparation functions defined in this script.
+1. trn_HDSLR.py : It is the training code. The H-DSLR model is trained on the 360 12-channel brain slices described above.
+2. tst_HDSLR.py : It is the code for testing a pre-trained model on the test dataset uploaded as tst_img.npy. The pre-trained model is inside the directory 'savedModels'.
+3. auxiliaryFunctions.py : The training and testing dataset preparation related functions are defined in this script.
 4. HDSLR.py : Defines the H-DSLR network architecture to be trained.
 
