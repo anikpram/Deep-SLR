@@ -16,3 +16,6 @@ Description of the python scripts are:
 3. auxiliaryFunctions.py : The training and testing dataset preparation related functions are defined in this script.
 4. HDSLR.py : Defines the H-DSLR network architecture to be trained.
 
+## Reference
+Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob. "Deep Generalization of Structured Low-Rank Algorithms (Deep-SLR).", arXiv preprint arXiv:1912.03433 (2020).
+Arxiv Link: https://arxiv.org/pdf/1912.03433.pdf
