@@ -23,8 +23,8 @@ subDirectory='20Feb_1229pm_360I_500E_0V_1B10K'
 
 
 
-nImg=90
-dispind=10
+nImg=1
+dispind=0
 #%%Read the testing data 
 org,_,atb,mask,std=sf.getTestingData(nImg=nImg)
 std=np.expand_dims(std,axis=1)
