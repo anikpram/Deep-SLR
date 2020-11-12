@@ -16,7 +16,7 @@ Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel 
 The network solves for the following optimization problem
 <img src="opt_prb.png"  title="hover text" width="500px">
 which alternates between
-<img src="alt_steps.png"  title="hover text">
+<img src="alt_steps.png"  title="hover text" width="500px">
 
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
