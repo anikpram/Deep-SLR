@@ -11,7 +11,8 @@ Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Deep Generalization of St
 
 Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel MRI using Model Based Deep Learning (C-MODL)", 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI). https://ieeexplore.ieee.org/document/9098490
 
-
+### Recursive H-DSLR network
+<img src="hdslr.png"  title="hover text">
 
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
