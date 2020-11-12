@@ -4,8 +4,8 @@ significantly reduce the computational complexity. Specifically, we use a convol
 is insensitive to motion errors and affords higher acceleration. The proposed scheme also incorporates image domain priors that are complementary, thus significantly improving the performance over that of SLR schemes.
 
 ## Implementation
-Tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstruction. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors.
-The relevant papers are:
+Tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstruction. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors.\
+The relevant papers are,\
 Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob. "Deep Generalization of Structured Low-Rank Algorithms (Deep-SLR).", arXiv preprint arXiv:1912.03433 (2020). https://ieeexplore.ieee.org/document/9159672
 
 
