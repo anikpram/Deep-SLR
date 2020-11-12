@@ -33,6 +33,10 @@ which alternates between
 
 <img src="proposed_vs_selfcalibrated.png"  title="hover text">
 
+4. Deep-SLR is three orders of magnitude faster than Structured Low-rank (SLR) methods.
+
+<img src="computational_complexity.png"  title="hover text">
+
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
 
