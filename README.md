@@ -3,16 +3,12 @@ Structured low-rank (SLR) algorithms, which exploit annihilation relations betwe
 significantly reduce the computational complexity. Specifically, we use a convolutional neural network (CNN)-based filterbank that is trained to estimate the annihilation relations from imperfect (under-sampled and noisy) k-space measurements of Magnetic Resonance Imaging (MRI). The main reason for the computational efficiency is the pre-learning of the parameters of the non-linear CNN from exemplar data, compared to SLR schemes that learn the linear filterbank parameters from the dataset itself. Experimental comparisons show that the proposed scheme can enable calibration-less parallel MRI; it can offer performance similar to SLR schemes while reducing the runtime by around three orders of magnitude. Unlike pre-calibrated and self-calibrated approaches, the proposed uncalibrated approach
 is insensitive to motion errors and affords higher acceleration. The proposed scheme also incorporates image domain priors that are complementary, thus significantly improving the performance over that of SLR schemes.
 
+## Implementation
+Tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstruction. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors.
 
-
-
-
-
-
-Tensorflow implementation of hybrid Deep-SLR (H-DSLR) for undersampled multi-channel MRI reconstruction. H-DSLR is a model-based deep learning approach to significantly
-reduce the computational complexity of Structured low-rank (SLR) algorithms.
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
+
 ## Code Details
 The codes have been written in python-3.7 using the Tensorflow-1.15 platform.
 ### Training and Testing datasets
