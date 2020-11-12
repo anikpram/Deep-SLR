@@ -40,7 +40,7 @@ which alternates between
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
 
-## Code Details
+## H-DSLR Code for Parallel MRI
 The codes have been written in python-3.7 using the Tensorflow-1.15 platform.
 ### Training and Testing datasets
 The training dataset consists of 12-channel brain MRI images from 4 subjects collected through SSFP acquisition protocol. There are 90 slices per subject which makes it 90 x 4 = 360 slices in total. Each slice is of dimension 256 x 232 x 12. The dataset can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing .\
