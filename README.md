@@ -9,7 +9,7 @@ Tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled P
 Relevant papers are,\
 Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Deep Generalization of Structured Low-Rank Algorithms (Deep-SLR)", IEEE Transactions on Medical Imaging, 2020. https://ieeexplore.ieee.org/document/9159672
 
-Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel MRI using Model Based Deep Learning (C-MODL)", 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI).
+Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel MRI using Model Based Deep Learning (C-MODL)", 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI). https://ieeexplore.ieee.org/document/9098490
 
 
 
