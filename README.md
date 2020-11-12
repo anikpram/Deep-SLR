@@ -14,7 +14,7 @@ Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel 
 ### Recursive H-DSLR network
 <img src="hdslr.png"  title="hover text">
 The network solves for the following optimization problem
-<img src="opt_prb.png"  title="hover text" width="100px">
+<img src="opt_prb.png"  title="hover text" width="500px">
 which alternates between
 <img src="alt_steps.png"  title="hover text">
 
