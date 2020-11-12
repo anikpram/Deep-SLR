@@ -19,7 +19,7 @@ The network solves for
 
 which alternates between
 
-<img src="alt_steps.png"  title="hover text" width="400px">
+<img src="alt_steps.png"  title="hover text" width="450px">
 
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
