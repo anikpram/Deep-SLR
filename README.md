@@ -27,11 +27,11 @@ which alternates between
 
 2. It is insensitive to motion artifacts arising due to mismatch between calibration and main scans.
 
-<img src="proposed_vs_precalibrated.png"  title="hover text" width="750px">
+<img src="proposed_vs_precalibrated.png"  title="hover text">
 
 3. It can achieve higher accleration factor since no fully sampled calibration region required for sensitivity estimation unlike auto-calibrated methods. 
 
-<img src="proposed_vs_selfcalibrated.png"  title="hover text" width="750px">
+<img src="proposed_vs_selfcalibrated.png"  title="hover text">
 
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
