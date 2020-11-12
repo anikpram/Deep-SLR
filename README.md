@@ -7,7 +7,9 @@ is insensitive to motion errors and affords higher acceleration. The proposed sc
 Tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstruction. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors.\
 
 Relevant papers are,\
-Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob. "Deep Generalization of Structured Low-Rank Algorithms (Deep-SLR).", arXiv preprint arXiv:1912.03433 (2020). https://ieeexplore.ieee.org/document/9159672
+Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Deep Generalization of Structured Low-Rank Algorithms (Deep-SLR).", IEEE Transactions on Medical Imaging, 2020. https://ieeexplore.ieee.org/document/9159672
+
+Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel MRI using Model Based Deep Learning (C-MODL)", 2020 IEEE 17th International Symposium on Biomedical Imaging (ISBI).
 
 
 
