@@ -24,9 +24,13 @@ which alternates between
 ### Benefits of Deep-SLR for Parallel MRI
 1. It is a calibrationless recovery approach which does not require to estimate coil sensitivities.
 <img src="brain_6x_recon.png"  title="hover text">
+
 2. It is insensitive to motion artifacts arising due to mismatch between calibration and main scans.
+
 <img src="proposed_vs_precalibrated.png"  title="hover text" width="750px">
+
 3. It can achieve higher accleration factor since no fully sampled calibration region required for sensitivity estimation unlike auto-calibrated methods. 
+
 <img src="proposed_vs_selfcalibrated.png"  title="hover text" width="750px">
 
 ## Results
