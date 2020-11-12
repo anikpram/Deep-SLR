@@ -13,6 +13,19 @@ Pramanik, Aniket, Hemant Aggarwal, and Mathews Jacob, "Calibrationless Parallel 
 
 ### Recursive H-DSLR network
 <img src="hdslr.png"  title="hover text">
+The network solves for 
+
+<img src="opt_prb.png"  title="hover text" width="500px"> 
+
+which alternates between
+
+<img src="alt_steps.png"  title="hover text" width="450px">
+
+### Benefits of Deep-SLR for Parallel MRI
+1. It is a calibrationless recovery approach which does not require to estimate coil sensitivities.
+<img src="brain_6x_recon.png"  title="hover text">
+2. It is insensitive to motion artifacts arising due to mismatch between calibration and main scans.
+3. It can achieve higher accleration factor since no fully sampled calibration region required for sensitivity estimation unlike auto-calibrated methods. 
 
 ## Results
 <img src="brain_6x_recon.png"  title="hover text">
