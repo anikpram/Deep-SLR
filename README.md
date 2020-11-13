@@ -58,6 +58,6 @@ The testing dataset is uploaded as tst_img.npy which consists of a slice (256 x 
 1. trn_HDSLR.py : It is the training code. The H-DSLR model is trained on the 360 12-channel brain slices described above.
 2. tst_HDSLR.py : It is the code for testing a pre-trained model on the test dataset uploaded as tst_img.npy. The pre-trained model is inside the directory 'savedModels'.
 3. auxiliaryFunctions.py : The training and testing dataset preparation related functions are defined in this script.
-4. HDSLR.py : Defines the H-DSLR network architecture to be trained.
+4. '''HDSLR.py''' : Defines the H-DSLR network architecture to be trained.
 
 
