@@ -67,4 +67,5 @@ A testing dataset is uploaded as test_2_img_axial.npy which consists of two axia
 
 ```HDSLR.py``` : Defines the H-DSLR network architecture to be trained for parallel MRI or single-channel sparse MRI recovery. 
 
-
+## Contact
+The code is meant for reproducible research. In case of any difficulty, please open an issue or directly email me at aniket-pramanik@uiowa.edu 
