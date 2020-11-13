@@ -53,27 +53,18 @@ The datasets used for single channel experiments are single-channel T1-weighted 
 A testing dataset is uploaded as test_2_img_axial.npy which consists of two axial slices of 256 x 170 from a subject unseen by the network during training. 
 
 ### Description of Python scripts
-```trn_HDSLR.py``` : It is the training code. The H-DSLR model is trained on the 360 12-channel brain slices described above.
+```trn_HDSLR_parallel_mri.py``` : It is the training code. The H-DSLR model is trained on the 360 12-channel brain slices described above.
 
-```tst_HDSLR.py``` : It is the code for testing a pre-trained model on the test dataset uploaded as tst_img.npy. The pre-trained model is inside the directory 'savedModels'.
+```tst_HDSLR_parallel_mri.py``` : It is the code for testing a pre-trained model on the test dataset uploaded as tst_img.npy. The pre-trained model is inside the directory 'savedModels'. This is meant for Parallel MRI recovery.
 
-```auxiliaryFunctions.py``` : The training and testing dataset preparation related functions are defined in this script.
+```trn_HDSLR_single_channel_sparse_MRI.py``` : It is the training code for single-channel sparse MRI recovery. The H-DSLR model is trained on 25 subjects with single-channel brain slices described above.
 
-```HDSLR.py``` : Defines the H-DSLR network architecture to be trained.
+```tst_HDSLR_single_channel_sparse_MRI.py``` : It is the code for testing a pre-trained model on the test dataset uploaded as test_2_img_axial.npy. The pre-trained model is inside the directory 'savedModels'. This is meant for Single-channel Sparse MRI recovery. 
 
+```auxiliaryFunctions.py``` : Parallel MRI dataset preparation related functions are defined in this script.
 
-## H-DSLR Code for Single-channel Sparse MRI
-The codes have been written in python-3.7 using the Tensorflow-1.15 platform.
-### Training and Testing datasets
-The training dataset consists of 12-channel brain MRI images from 4 subjects collected through SSFP acquisition protocol. There are 90 slices per subject which makes it 90 x 4 = 360 slices in total. Each slice is of dimension 256 x 232 x 12. The dataset can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing .\
-The testing dataset is uploaded as tst_img.npy which consists of a slice (256 x 232 x 12) from another subject unseen by the network during training.
-### Description of Python scripts
-```trn_HDSLR.py``` : It is the training code. The H-DSLR model is trained on the 360 12-channel brain slices described above.
+```data_processing_functions.py``` : Single-channel Sparse MRI dataset preparation related functions are defined in this script.
 
-```tst_HDSLR.py``` : It is the code for testing a pre-trained model on the test dataset uploaded as tst_img.npy. The pre-trained model is inside the directory 'savedModels'.
-
-```auxiliaryFunctions.py``` : The training and testing dataset preparation related functions are defined in this script.
-
-```HDSLR.py``` : Defines the H-DSLR network architecture to be trained.
+```HDSLR.py``` : Defines the H-DSLR network architecture to be trained for parallel MRI or single-channel sparse MRI recovery. 
 
 
