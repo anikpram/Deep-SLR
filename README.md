@@ -42,7 +42,7 @@ which alternates between
 <img src="brain_sparseMRI.png"  title="hover text">
 
 ## H-DSLR Code for Parallel MRI and Single-channel Sparse MRI
-This is a tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstructions. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors. The codes have been written in python-3.7 using the Tensorflow-1.15 platform.
+This is a tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstructions. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors. The codes have been written in python-3.7 using the Tensorflow-v1.15 library.
 
 ### Parallel MRI Dataset
 The training dataset consists of 12-channel brain MRI images from 4 subjects collected through SSFP acquisition protocol. There are 90 slices per subject which makes it 90 x 4 = 360 slices in total. Each slice is of dimension 256 x 232 x 12. The dataset can be downloaded from the link https://drive.google.com/file/d/1Fml2PtQuECfbXAI86OYqzBb7K_CiQ2tk/view?usp=sharing .\
