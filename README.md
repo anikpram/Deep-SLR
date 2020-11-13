@@ -37,6 +37,7 @@ which alternates between
 ## Results
 ### Parallel MRI
 <img src="brainPMRI.png"  title="hover text">
+
 ### Single-channel Sparse MRI
 <img src="brain_sparseMRI.png"  title="hover text">
 
