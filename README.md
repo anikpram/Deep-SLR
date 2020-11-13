@@ -20,7 +20,7 @@ which alternates between
 
 ### Benefits of Deep-SLR for Parallel MRI
 1. It is a calibrationless recovery approach which does not require to estimate coil sensitivities.
-<img src="brain_6x_recon.png"  title="hover text">
+
 
 2. It is insensitive to motion artifacts arising due to mismatch between calibration and main scans.
 
@@ -35,7 +35,10 @@ which alternates between
 <img src="computational_complexity.png"  title="hover text" width="750px">
 
 ## Results
-<img src="brain_6x_recon.png"  title="hover text">
+### Parallel MRI
+<img src="brainPMRI.png"  title="hover text">
+### Single-channel Sparse MRI
+<img src="brain_sparseMRI.png"  title="hover text">
 
 ## H-DSLR Code for Parallel MRI
 This is a tensorflow implementation of hybrid Deep-SLR (H-DSLR) network for undersampled Parallel MRI and single-channel Sparse MRI reconstructions. H-DSLR is a model-based deep learning approach that significantly reduces the computational complexity of Structured low-rank (SLR) algorithms. It employs both k-space and spatial domain priors. The codes have been written in python-3.7 using the Tensorflow-1.15 platform.
